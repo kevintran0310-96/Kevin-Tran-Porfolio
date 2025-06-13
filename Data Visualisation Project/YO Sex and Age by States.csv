@@ -1,0 +1,193 @@
+Year,Sex,Age,State,Population
+2022,Male,10-11 years,NSW,201
+2022,Male,12-13 years,NSW,1516
+2022,Male,14-17 years,NSW,10781
+2022,Male,Total,NSW,12503
+2022,Female,10-11 years,NSW,72
+2022,Female,12-13 years,NSW,993
+2022,Female,14-17 years,NSW,4786
+2022,Female,Total,NSW,5855
+2021,Male,10-11 years,NSW,189
+2021,Male,12-13 years,NSW,1444
+2021,Male,14-17 years,NSW,10949
+2021,Male,Total,NSW,12576
+2021,Female,10-11 years,NSW,72
+2021,Female,12-13 years,NSW,814
+2021,Female,14-17 years,NSW,4538
+2021,Female,Total,NSW,5428
+2022,Person,10-11 years,NSW,274
+2022,Person,12-13 years,NSW,2508
+2022,Person,14-17 years,NSW,15609
+2022,Person,Total,NSW,18390
+2021,Person,10-11 years,NSW,260
+2021,Person,12-13 years,NSW,2256
+2021,Person,14-17 years,NSW,15494
+2021,Person,Total,NSW,18012
+2022,Male,10-11 years,Vic,95
+2022,Male,12-13 years,Vic,734
+2022,Male,14-17 years,Vic,4884
+2022,Male,Total,Vic,5705
+2022,Female,10-11 years,Vic,50
+2022,Female,12-13 years,Vic,490
+2022,Female,14-17 years,Vic,1933
+2022,Female,Total,Vic,2464
+2021,Male,10-11 years,Vic,79
+2021,Male,12-13 years,Vic,589
+2021,Male,14-17 years,Vic,4333
+2021,Male,Total,Vic,4999
+2021,Female,10-11 years,Vic,29
+2021,Female,12-13 years,Vic,308
+2021,Female,14-17 years,Vic,1688
+2021,Female,Total,Vic,2026
+2022,Person,10-11 years,Vic,139
+2022,Person,12-13 years,Vic,1217
+2022,Person,14-17 years,Vic,6815
+2022,Person,Total,Vic,8175
+2021,Person,10-11 years,Vic,115
+2021,Person,12-13 years,Vic,896
+2021,Person,14-17 years,Vic,6017
+2021,Person,Total,Vic,7028
+2022,Male,10-11 years,Qld,242
+2022,Male,12-13 years,Qld,1278
+2022,Male,14-17 years,Qld,5795
+2022,Male,Total,Qld,7315
+2022,Female,10-11 years,Qld,70
+2022,Female,12-13 years,Qld,790
+2022,Female,14-17 years,Qld,2696
+2022,Female,Total,Qld,3561
+2021,Male,10-11 years,Qld,238
+2021,Male,12-13 years,Qld,1181
+2021,Male,14-17 years,Qld,5668
+2021,Male,Total,Qld,7088
+2021,Female,10-11 years,Qld,84
+2021,Female,12-13 years,Qld,669
+2021,Female,14-17 years,Qld,2467
+2021,Female,Total,Qld,3217
+2022,Person,10-11 years,Qld,316
+2022,Person,12-13 years,Qld,2063
+2022,Person,14-17 years,Qld,8496
+2022,Person,Total,Qld,10878
+2021,Person,10-11 years,Qld,324
+2021,Person,12-13 years,Qld,1850
+2021,Person,14-17 years,Qld,8134
+2021,Person,Total,Qld,10304
+2022,Male,10-11 years,SA,43
+2022,Male,12-13 years,SA,252
+2022,Male,14-17 years,SA,1216
+2022,Male,Total,SA,1510
+2022,Female,10-11 years,SA,13
+2022,Female,12-13 years,SA,149
+2022,Female,14-17 years,SA,527
+2022,Female,Total,SA,684
+2021,Male,10-11 years,SA,59
+2021,Male,12-13 years,SA,204
+2021,Male,14-17 years,SA,1160
+2021,Male,Total,SA,1426
+2021,Female,10-11 years,SA,14
+2021,Female,12-13 years,SA,84
+2021,Female,14-17 years,SA,447
+2021,Female,Total,SA,544
+2022,Person,10-11 years,SA,52
+2022,Person,12-13 years,SA,397
+2022,Person,14-17 years,SA,1745
+2022,Person,Total,SA,2194
+2021,Person,10-11 years,SA,80
+2021,Person,12-13 years,SA,286
+2021,Person,14-17 years,SA,1606
+2021,Person,Total,SA,1971
+2022,Male,10-11 years,WA,372
+2022,Male,12-13 years,WA,901
+2022,Male,14-17 years,WA,2891
+2022,Male,Total,WA,4161
+2022,Female,10-11 years,WA,150
+2022,Female,12-13 years,WA,512
+2022,Female,14-17 years,WA,1365
+2022,Female,Total,WA,2035
+2021,Male,10-11 years,WA,347
+2021,Male,12-13 years,WA,894
+2021,Male,14-17 years,WA,2908
+2021,Male,Total,WA,4143
+2021,Female,10-11 years,WA,117
+2021,Female,12-13 years,WA,492
+2021,Female,14-17 years,WA,1222
+2021,Female,Total,WA,1827
+2022,Person,10-11 years,WA,535
+2022,Person,12-13 years,WA,1443
+2022,Person,14-17 years,WA,4301
+2022,Person,Total,WA,6278
+2021,Person,10-11 years,WA,466
+2021,Person,12-13 years,WA,1410
+2021,Person,14-17 years,WA,4159
+2021,Person,Total,WA,6037
+2022,Male,10-11 years,Tas,26
+2022,Male,12-13 years,Tas,95
+2022,Male,14-17 years,Tas,528
+2022,Male,Total,Tas,644
+2022,Female,10-11 years,Tas,11
+2022,Female,12-13 years,Tas,68
+2022,Female,14-17 years,Tas,278
+2022,Female,Total,Tas,358
+2021,Male,10-11 years,Tas,20
+2021,Male,12-13 years,Tas,93
+2021,Male,14-17 years,Tas,469
+2021,Male,Total,Tas,583
+2021,Female,10-11 years,Tas,5
+2021,Female,12-13 years,Tas,49
+2021,Female,14-17 years,Tas,241
+2021,Female,Total,Tas,296
+2022,Person,10-11 years,Tas,39
+2022,Person,12-13 years,Tas,161
+2022,Person,14-17 years,Tas,806
+2022,Person,Total,Tas,1012
+2021,Person,10-11 years,Tas,34
+2021,Person,12-13 years,Tas,139
+2021,Person,14-17 years,Tas,713
+2021,Person,Total,Tas,888
+2022,Male,10-11 years,NT,26
+2022,Male,12-13 years,NT,96
+2022,Male,14-17 years,NT,446
+2022,Male,Total,NT,568
+2022,Female,10-11 years,NT,5
+2022,Female,12-13 years,NT,41
+2022,Female,14-17 years,NT,127
+2022,Female,Total,NT,178
+2021,Male,10-11 years,NT,31
+2021,Male,12-13 years,NT,106
+2021,Male,14-17 years,NT,446
+2021,Male,Total,NT,581
+2021,Female,10-11 years,NT,9
+2021,Female,12-13 years,NT,31
+2021,Female,14-17 years,NT,121
+2021,Female,Total,NT,161
+2022,Person,10-11 years,NT,33
+2022,Person,12-13 years,NT,142
+2022,Person,14-17 years,NT,583
+2022,Person,Total,NT,754
+2021,Person,10-11 years,NT,40
+2021,Person,12-13 years,NT,138
+2021,Person,14-17 years,NT,578
+2021,Person,Total,NT,754
+2022,Male,10-11 years,ACT,3
+2022,Male,12-13 years,ACT,36
+2022,Male,14-17 years,ACT,171
+2022,Male,Total,ACT,208
+2022,Female,10-11 years,ACT,0
+2022,Female,12-13 years,ACT,19
+2022,Female,14-17 years,ACT,97
+2022,Female,Total,ACT,121
+2021,Male,10-11 years,ACT,0
+2021,Male,12-13 years,ACT,22
+2021,Male,14-17 years,ACT,129
+2021,Male,Total,ACT,154
+2021,Female,10-11 years,ACT,0
+2021,Female,12-13 years,ACT,9
+2021,Female,14-17 years,ACT,58
+2021,Female,Total,ACT,65
+2022,Person,10-11 years,ACT,3
+2022,Person,12-13 years,ACT,58
+2022,Person,14-17 years,ACT,269
+2022,Person,Total,ACT,332
+2021,Person,10-11 years,ACT,0
+2021,Person,12-13 years,ACT,30
+2021,Person,14-17 years,ACT,194
+2021,Person,Total,ACT,223
