@@ -1,0 +1,37 @@
+# Configuration for the multi‑class illicit content classification task
+
+dataset_path: "data/multiclass.csv"  # path to CSV file with `text` and `label` columns
+task: multiclass
+
+# Train/validation/test splits
+train_size: 0.8
+val_size: 0.1
+test_size: 0.1
+random_seed: 1337
+
+# Model hyperparameters (common)
+max_seq_length: 128
+batch_size: 16  # smaller batch for 40 classes
+num_epochs: 6
+learning_rate: 2e-5
+
+# LoRA & quantisation (for LLMs)
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.1
+quantisation_bits: 4
+
+# Classical model parameters
+svm:
+  C: 1.0
+  kernel: "linear"
+  ngram_range: [1, 2]
+  min_df: 2
+naive_bayes:
+  alpha: 1.0
+  ngram_range: [1, 2]
+  min_df: 2
+
+# Output paths
+model_dir: "models"
+log_dir: "runs"

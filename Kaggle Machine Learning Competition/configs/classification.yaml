@@ -1,0 +1,37 @@
+task: classification
+train_path: data/raw/classification_train.csv
+test_path: data/raw/classification_test.csv
+target_column: iDontThinkILookAttractive
+class_labels: [-2, -1, 0, 1, 2]
+random_state: 42
+n_splits: 5
+val_size: 0.2
+base_models:
+  - rf
+  - svm
+  - xgb
+  - ordinal_reg
+model_params:
+  rf:
+    ntree: 300
+    mtry: 6
+    # When class weights are provided, they should be normalised to sum to 1.  You can
+    # leave this field empty to use unweighted training.
+    classwt: null
+  svm:
+    cost: 2.0
+    gamma: 0.1
+  xgb:
+    nrounds: 450
+    eta: 0.05
+    max_depth: 7
+    subsample: 0.8
+    colsample_bytree: 0.8
+    objective: multi:softprob
+    eval_metric: mlogloss
+  ordinal_reg:
+    # Hyperparameters for the ordinal regression base model (linear regression)
+    lambda: 0.0
+meta_model: multinom
+meta_params:
+  maxit: 300

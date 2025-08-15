@@ -1,0 +1,29 @@
+# Default configuration for data wrangling
+
+# Paths to raw input files.  Modify these to point to your own data
+# files.  These names correspond to the keys returned by
+# `datawrangle.io.load_datasets()`.
+
+dirty_data: "data/Group111_dirty_data.csv"
+missing_data: "data/Group111_missing_data.csv"
+outlier_data: "data/Group111_outlier_data.csv"
+branches: "data/branches.csv"
+edges: "data/edges.csv"
+nodes: "data/nodes.csv"
+
+# Output file paths.  These files will be written by your pipeline.
+
+dirty_solution: "data/Group111_dirty_solution.csv"
+missing_solution: "data/Group111_missing_solution.csv"
+outlier_solution: "data/Group111_outlier_solution.csv"
+
+# Valid branch codes used across all tasks.
+valid_branch_codes:
+  - NS
+  - TP
+  - BK
+
+# Latitude and longitude bounds for Melbourne.  Values falling
+# outside these ranges will be clipped to the nearest bound.
+lat_range: [-38.0, -37.0]
+lon_range: [144.0, 145.0]

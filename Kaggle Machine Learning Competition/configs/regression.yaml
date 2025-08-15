@@ -1,0 +1,30 @@
+task: regression
+train_path: data/raw/regression_train.csv
+test_path: data/raw/regression_test.csv
+target_column: happiness
+random_state: 42
+n_splits: 5
+val_size: 0.2
+# List of base learners for stacking. Supported: rf (randomForest), svm (e1071), xgb (xgboost)
+base_models:
+  - rf
+  - svm
+  - xgb
+model_params:
+  rf:
+    ntree: 250
+    mtry: 5
+  svm:
+    cost: 2.0
+    gamma: 0.1
+    type: eps-regression
+  xgb:
+    nrounds: 400
+    eta: 0.05
+    max_depth: 6
+    subsample: 0.8
+    colsample_bytree: 0.8
+    lambda: 1.0
+meta_model: linear
+meta_params:
+  intercept: true
