@@ -120,10 +120,6 @@ This directly translates into **better decision-making**, **cost savings**, and 
    ```bash
    jupyter notebook notebooks/3_eda_analysis.ipynb
    ```
-
----
-
-<<<<<<< HEAD
 ## 📌 Future Improvements
 - Connect to a **cloud data warehouse** (AWS Redshift, BigQuery).  
 - Orchestrate pipeline with **Airflow or Prefect**.  
@@ -133,12 +129,3 @@ This directly translates into **better decision-making**, **cost savings**, and 
 ## 📂 Data
 - `data/raw/samples/transactions_sample.csv`: a small synthetic dataset for demo.
 - For full runs, place `transactions.csv` ans `merchant.csv` into `data/raw/` (ignored by git).
->>>>>>> 29a37ae0b1c5fed931c4dd9fd618bba08f905332
-
----
-
-## 👤 Author
-**Kevin Tran**  
-- 💼 Data Scientist | E-commerce & Logistics Experience  
-- 🌐 [Portfolio Website](#)  
-- 📧 [Your Email]  
