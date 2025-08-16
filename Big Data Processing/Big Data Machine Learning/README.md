@@ -2,7 +2,7 @@
 
 This repository contains a **reproducible** implementation of a Big Data ETL + EDA + Modeling workflow for **e‑commerce fraud detection** using **PySpark**. It follows a schema‑first, pipeline‑driven approach and includes sample data, configs, and scripts to make it easy to run locally.
 
-> Context: The assignment asks you to build fraud detection with Spark MLlib/Streaming using customer & browsing behaviour, then evaluate RF/GBT and do K‑Means clustering for behaviour insight. fileciteturn1file0
+> Context: The project requires to build fraud detection with Spark MLlib/Streaming using customer & browsing behaviour, then evaluate RF/GBT and do K‑Means clustering for behaviour insight.
 
 ## ✨ What’s inside
 - **`src/`** — modular Python package with ETL, feature engineering, training, and clustering scripts
