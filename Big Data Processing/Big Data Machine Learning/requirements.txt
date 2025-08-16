@@ -1,0 +1,3 @@
+# For development, you can install from this minimal list.
+# CI uses requirements.lock.txt for strict reproducibility.
+-r requirements.lock.txt

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+.env/
+.envrc
+dist/
+build/
+
+# Spark / Java
+derby.log
+
+# Data
+data/raw/
+data/processed/
+data/features/
+models/
+reports/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

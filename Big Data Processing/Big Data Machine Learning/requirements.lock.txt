@@ -1,0 +1,26 @@
+# Generated for portability. Prefer re-compiling with pip-tools (pip-compile) on your platform.
+# To recompile:
+#   pip install pip-tools
+#   pip-compile --resolver=backtracking --generate-hashes -o requirements.lock.txt requirements.in
+#
+# Note: hashes omitted to keep this file VCS-friendly here.
+#
+pyspark==3.5.1
+pandas==2.2.2
+pyarrow==15.0.2
+matplotlib==3.8.4
+seaborn==0.13.2
+jupyter==1.0.0
+notebook==7.2.1
+PyYAML==6.0.2
+numpy==1.26.4
+python-dateutil==2.9.0.post0
+pytz==2024.1
+six==1.16.0
+contourpy==1.2.1
+cycler==0.12.1
+fonttools==4.53.0
+kiwisolver==1.4.5
+packaging==24.1
+pillow==10.3.0
+pyparsing==3.1.2

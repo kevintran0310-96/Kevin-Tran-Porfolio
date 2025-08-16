@@ -1,0 +1,48 @@
+# Paths
+data:
+  raw_dir: data/raw
+  sample_dir: data/sample
+  processed_dir: data/processed
+  features_dir: data/features
+  models_dir: models
+  reports_dir: reports
+
+files:
+  category: category.csv
+  customer: customer.csv
+  customer_session: customer_session.csv
+  browsing_behaviour: browsing_behaviour.csv
+  fraud_transaction: fraud_transaction.csv
+
+# Column mapping (adjust to match your CSV headers)
+columns:
+  ids:
+    customer_id: customer_id
+    session_id: session_id
+    transaction_id: transaction_id
+  browsing:
+    event_time: event_time
+    event_type: event_type
+  fraud:
+    fraud_txn_id: transaction_id
+  customer:
+    gender: gender
+    dob: dob
+    signup_date: first_join_date
+    postcode: postcode
+
+# Event levels
+levels:
+  L1: ["AP","ATC","CO"]
+  L2: ["VC","VP","VI","SER"]
+  L3: ["SCR","HP","CL"]
+
+# Modeling
+model:
+  seed: 42
+  test_size: 0.2
+  label_col: is_fraud
+
+kmeans:
+  k_min: 2
+  k_max: 8

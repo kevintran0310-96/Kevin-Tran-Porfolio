@@ -1,0 +1,10 @@
+{
+  "use_explicit_schema": false,
+  "tables": {
+    "browsing_behaviour": {},
+    "customer": {},
+    "customer_session": {},
+    "category": {},
+    "fraud_transaction": {}
+  }
+}
