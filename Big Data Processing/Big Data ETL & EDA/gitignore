@@ -1,0 +1,11 @@
+
+# Data
+data/raw/transactions.csv
+data/raw/*.zip
+data/processed/*
+reports/figures/*
+
+# Python
+.venv/
+__pycache__/
+*.pyc

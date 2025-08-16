@@ -1,0 +1,15 @@
+"category","id_category"
+Entertainment,1
+Food_Dining,2
+Gas_Transport,3
+Grocery(Online),4
+Grocery(In Store),5
+Health_Fitness,6
+Home,7
+Pets,8
+Misc(Online)\,9
+Misc(In Store),10
+Personal Care,11
+Shopping(Online),12
+Shopping(In Store),13
+Travel,14
